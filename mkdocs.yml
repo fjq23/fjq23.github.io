@@ -1,5 +1,36 @@
-site_name: 网站名字
+site_name: 示奇の陋室
 site_url: 
-site_author: 你的名字
+site_author: 示奇
+nav:
+  - 网站简介:
+    - index/welcome.md
+    - index/myself.md
+    - index/website_introduction.md
+  - Blog:
+    - blog/test.md
 theme:
- name: material #主题
+  language: zh
+  font:
+   text: Libre Baskerville
+   code: Roboto Mono
+  name: material #主题
+  plugins:
+    - blog
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - search.suggest
+    - search.share
+  palette:
+  - scheme: default
+    primary: blue grey
+    accent: light green
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    primary: grey
+    accent: orange
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode

@@ -1,11 +1,11 @@
 site_name: 示奇の陋室
-site_url: https://fjq23.github.io/index/welcome/
+site_url: https://fjq23.github.io/
 site_author: 示奇
 nav:
   - 网站简介:
-    - index/welcome.md
-    - index/myself.md
-    - index/website_introduction.md
+    - welcome.md
+    - begin/myself.md
+    - begin/website_introduction.md
   - Blog:
     - blog/test.md
 theme:

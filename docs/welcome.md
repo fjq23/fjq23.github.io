@@ -7,4 +7,4 @@
 
 
 
-[查看博客文章](blog/test.md)
+[查看博客文章](./blog/test.md)

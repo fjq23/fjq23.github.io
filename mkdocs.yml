@@ -2,20 +2,22 @@ site_name: 示奇の陋室
 site_url: 
 site_author: 示奇
 nav:
-  - 网站简介:
+  - Home:
     - index.md
     - begin/myself.md
     - begin/website_introduction.md
   - Blog:
-    - blog/test.md
+    - blog/blog_1.md
+  - Novel:
+    - novel/zhi_zi.md
+  - Other:
+    - other/jiang.md
 theme:
   language: zh
   font:
-   text: Libre Baskerville
+   text: LXGW WenKai Mono TC
    code: Roboto Mono
   name: material #主题
-  plugins:
-    - blog
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -34,3 +36,11 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
+  plugins:
+    - search
+    - tags
+    - blog:
+      archive_date_format: MMMM yyyy
+      categories_allowed:
+        - Holidays
+        - News
